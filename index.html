@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINIMAL</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo">
+          <img class="header__logo-img" src="/images/Logo.svg" alt="Logo" />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__items">
+              <a href="#" class="header__link">PROCESS</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">PROJECTS</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">TEAM</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <h1 class="hero__heading">MAKING BRANDS STAND OUT</h1>
+        <h1 class="hero__heading">IS OUR OBSESSION</h1>
+        <div class="separator hero__separator"></div>
+        <p class="hero__descr">Let us help your brand stand out.</p>
+      </div>
+    </section>
+    <section class="description">
+      <div class="container description__container">
+        <p class="description__descr">
+          Minimalist is a full-service digital creative agency located in
+          Ontorio Canada. We focus on design, consulting, technology, and
+          photography. We've been building unique digital products, platforms,
+          and experiences for the past 6 years. Let us help your company grow.
+        </p>
+        <button class="description__btn">Get in Touch</button>
+      </div>
+    </section>
+    <section class="process">
+      <div class="container process__container">
+        <h2 class="process__heading">HOW WE MAKE BRANDS THRIVE</h2>
+        <div class="separator process__separator"></div>
+        <div class="grid">
+          <article class="process__card">
+            <div class="process__top">
+              <svg
+                width="127"
+                height="119"
+                viewBox="0 0 127 119"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path d="M0 0H127V119H0V0Z" fill="url(#pattern0_1_47)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_47"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_47"
+                      transform="scale(0.00393701 0.00420168)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_47"
+                    width="254"
+                    height="238"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="process__bottom">
+              <h3 class="process__heading-bottom">SET A TARGET</h3>
+              <p class="process__decr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
+          </article>
+          <article class="process__card">
+            <div class="process__top">
+              <svg
+                width="127"
+                height="119"
+                viewBox="0 0 127 119"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path d="M0 0H127V119H0V0Z" fill="url(#pattern0_1_53)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_53"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_53"
+                      transform="scale(0.00393701 0.00420168)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_53"
+                    width="254"
+                    height="238"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAADuCAYAAAAZQLrKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDNJREFUeNrs3WtOo1AAgNEycR/F1H1Mu7LCymT2YWO7EoYfTNJBCxe8UB7nJMbocEUYvgItxaQsyx2wLb+sAhA+IHxA+IDwAeEDwgeEDwgfED4gfED4gPAB4QPCB4QPCB/Y7V5CJ3xLX92qBxbi4/qZ2OMDwgfhA87xQ11u18Tqg3k47NNez8HZ44NDfUD4gPAB4QPCB4QPCB+Yj5epZ3jYp8fq07n6ON59u6g+8svtWgSMz+rxu5jjq7EnmwNbkZRl2AU/zXfnDblyr47+vWWSU1u81fj3xgPGpONhrppX7s3m3XkB0e/a/r3eUx9HHn+2CeEcP65j4ANE9pMo6weYoeOPNgmEH9d359VJfX4+xOnB+GPP8aEPPCD8CP40PgMTmfJZ/aKxNz5Xe9ffPzi8fq/GP5rPFOPBHj9AHnhOXfQY/0XLs/Ih4wvP6iP8iOqguqJ6+Fp89f0sYPypZf4h43ObBMKPH/+pbY9ex9k1Pn9wlND5GnzL/IPGw1pMegHPvftnz7uCH8O/+T9j3jDC9tzrAp6nhQ88L3xv0gHn+IDwAeEDwgeEDyzF4Gv1vYsNNhj+zk0rwKE+IHxgpYf63skG89Hr1Nu1+rACrtUHnOMDwgeED8IHhA8IHxA+IHxA+IDwAeEDwgeEDwgfED4gfED4gPAB4QPCB+EDwgeEDwgfED4gfED4gPAB4QPCB4QPCB8QPiB8QPiA8AHhg/AB4QPCB4QPCB8QPiB8QPiA8AHhA8IHhA8IHxA+IHxA+IDwQfiA8AHhA8IHhA8IHxA+IHxA+IDwAeEDwgeEDwgfED4gfED4gPBB+IDwAeEDwgeEDwgfED4gfED4gPAB4QPCB4QPCB8QPiB8QPggfED4gPAB4QPCB4QPCB8QPiB8QPiA8IHoXoYOPOzT0uoDe3xA+IDwgdlIyjLsVD1JEmsLFqKra3t8cKgPCB8QPiB8QPiA8AHhA8IHhA8IHxA+IHxA+IDwAeEDwgeED8IHNiL4vvruow+LktjjA8IH4QPO8UNdbtfOG+0f9mlWfTrffSuvxmUrnq7sWkcxf1afn9fzZ859uqjrcMC0WWPabIrl6WitnCR82LBz4+tsaQvgUB+c4wPCB4QPCB8QPiB8YLbGfh2/6Pi673Rzn28e8XeLvayhv1/s5R1jvqHLnEv8CeFfbtciZMMOnW4B883muqyhv1/s5R1pvqH/v9lI23USczqH+oDwAeEDwgeEDwgfeGxp78cvOr5ezXyf+VLQE+f9zNfd8y1t10lZht244y19LeeyYQL/a96B5+P66S67gPBB+FYBCB8QPiB8QPiA8AHhA8IHhA8IHxA+IHxA+IDwAeEDXQbfeuuwTzOrDzYWfuVs9YFDfUD4wBoO9f3JYViJ4NtrAw71AeEDwgeEDwgfED4gfED4gPAB4QPCB4QPfO+vAAMAhtN2W+LPRKIAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="process__bottom">
+              <h3 class="process__heading-bottom">DESIGN A SOLUTION</h3>
+              <p class="process__decr">
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                ut commodo diam libero vitae erat.
+              </p>
+            </div>
+          </article>
+          <article class="process__card">
+            <div class="process__top">
+              <svg
+                width="127"
+                height="119"
+                viewBox="0 0 127 119"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path d="M0 0H127V119H0V0Z" fill="url(#pattern0_1_59)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_59"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_59"
+                      transform="scale(0.00393701 0.00420168)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_59"
+                    width="254"
+                    height="238"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="process__bottom">
+              <h3 class="process__heading-bottom">TRACK THE PROGRESS</h3>
+              <p class="process__descr">
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <h2 class="projects__heading">RECENT PROJECTS</h2>
+        <div class="separator project__separator"></div>
+        <div class="grid">
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Woods.jpg" alt="woods" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">WOODS</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Path.jpg" alt="path" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">PATH</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Darkness.jpg" alt="darkness" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">DARKNESS</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Waves.jpg" alt="waves" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">WAVES</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Drops.jpg" alt="drops" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">DROPS</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Ocean.jpg" alt="ocean" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">OCEAN</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Town.jpg" alt="town" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">TOWN</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Mountain.jpg" alt="mountain" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">MOUNTAIN</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+          <article class="projects__article">
+            <div class="project__top">
+              <img src="/images/Camera.jpg" alt="camera" />
+            </div>
+            <div class="projects__bottom">
+              <h3 class="projects__bottom-heading">CAMERA</h3>
+              <p class="project__descr">Photography</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="container">
+        <h2 class="team__heading">OUR TEAM</h2>
+        <div class="grid team__grid">
+          <article class="team__card">
+            <div class="team__top">
+              <img src="/images/RSwanson.jpg" alt="RSwanson" />
+            </div>
+            <div class="team__bottom">
+              <h3 class="team__name">RON SWANSON</h3>
+              <p class="team__position">Founder</p>
+            </div>
+            <div class="team__socials">
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="12"
+                  viewBox="0 0 14 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1.902C13.4843 2.12989 12.9313 2.28466 12.3503 2.35389C12.943 1.99844 13.3988 1.43533 13.6127 0.765664C13.0589 1.09466 12.4437 1.33344 11.7895 1.46178C11.2653 0.904108 10.5179 0.555664 9.69265 0.555664C8.10676 0.555664 6.82032 1.84055 6.82032 3.42722C6.82032 3.652 6.84521 3.87133 6.89498 4.08211C4.50721 3.96155 2.39087 2.81822 0.974541 1.08144C0.727207 1.50533 0.585652 1.99922 0.585652 2.52422C0.585652 3.52133 1.09276 4.40022 1.86354 4.91511C1.39299 4.90033 0.949652 4.77122 0.562319 4.55655C0.562319 4.56822 0.562319 4.57989 0.562319 4.59233C0.562319 5.98378 1.55243 7.14578 2.8661 7.40866C2.62499 7.474 2.37143 7.509 2.10932 7.509C1.92499 7.509 1.74454 7.49266 1.56954 7.45844C1.93432 8.60022 2.99599 9.43011 4.2521 9.45344C3.26976 10.2234 2.03154 10.6823 0.685985 10.6823C0.45343 10.6823 0.225541 10.6683 0.000762939 10.6411C1.27165 11.457 2.78132 11.9314 4.40376 11.9314C9.68643 11.9314 12.5759 7.55489 12.5759 3.76011C12.5759 3.63489 12.5728 3.51044 12.5665 3.38755C13.1273 2.98466 13.615 2.47833 14 1.902Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.17059 1.49635C3.17059 2.32318 2.56035 2.99271 1.55565 2.99271C0.610235 2.99353 0 2.324 0 1.49635C0 0.649765 0.63 0 1.59518 0C2.55953 0 3.15082 0.649765 3.17059 1.49635ZM0.0790588 13.804V4.17447H3.07176V13.8032L0.0790588 13.804Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M4.86293 7.24709C4.86293 6.04556 4.82423 5.04168 4.7847 4.17533H7.38376L7.52211 5.51439H7.58058C7.97423 4.88356 8.9394 3.95874 10.5535 3.95874C12.5226 3.95792 14 5.27721 14 8.11345V13.804H11.0065V8.46756C11.0065 7.22733 10.5741 6.38074 9.49035 6.38074C8.6627 6.38074 8.17105 6.95145 7.95529 7.50321C7.8754 7.70003 7.85646 7.97592 7.85646 8.25098V13.804H4.86293V7.24709Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.63106 10.2562L4.40753 8.18007C4.23212 8.01619 3.948 8.01619 3.77259 8.18007L0 11.6949V12.1734C0 12.6197 0.391176 12.9829 0.868823 12.9829H13.0282C13.5059 12.9829 13.8971 12.6197 13.8971 12.1734V11.6949L10.1245 8.17843C9.94823 8.01619 9.66329 8.01619 9.48953 8.17843L7.266 10.2545C7.09059 10.4193 6.80647 10.4193 6.63106 10.2562ZM11.3573 7.0296L13.58 9.10572C13.7546 9.2696 13.8971 9.20702 13.8971 8.96737V4.50055C13.8971 4.26007 13.7546 4.19831 13.58 4.36219L11.3573 6.43831C11.1811 6.60137 11.1811 6.86572 11.3573 7.0296ZM0.868823 0.823486C0.391176 0.823486 0 1.18831 0 1.63384V1.7796L6.59729 7.95937C6.77188 8.12325 7.05518 8.12325 7.22976 7.95937L13.8971 1.70631V1.63384C13.8971 1.18831 13.5059 0.823486 13.0282 0.823486H0.868823ZM0 4.50055V8.96737C0 9.20702 0.142471 9.2696 0.317059 9.10572L2.53976 7.0296C2.716 6.86572 2.716 6.60137 2.53976 6.43749L0.317059 4.36219C0.142471 4.19831 0 4.26007 0 4.50055Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__top">
+              <img src="/images/JDepish.jpg" alt="JDepish" />
+            </div>
+            <div class="team__bottom">
+              <h3 class="team__name">JULIA DEPISH</h3>
+              <p class="team__position">Marketing</p>
+            </div>
+            <div class="team__socials">
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="12"
+                  viewBox="0 0 14 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1.902C13.4843 2.12989 12.9313 2.28466 12.3503 2.35389C12.943 1.99844 13.3988 1.43533 13.6127 0.765664C13.0589 1.09466 12.4437 1.33344 11.7895 1.46178C11.2653 0.904108 10.5179 0.555664 9.69265 0.555664C8.10676 0.555664 6.82032 1.84055 6.82032 3.42722C6.82032 3.652 6.84521 3.87133 6.89498 4.08211C4.50721 3.96155 2.39087 2.81822 0.974541 1.08144C0.727207 1.50533 0.585652 1.99922 0.585652 2.52422C0.585652 3.52133 1.09276 4.40022 1.86354 4.91511C1.39299 4.90033 0.949652 4.77122 0.562319 4.55655C0.562319 4.56822 0.562319 4.57989 0.562319 4.59233C0.562319 5.98378 1.55243 7.14578 2.8661 7.40866C2.62499 7.474 2.37143 7.509 2.10932 7.509C1.92499 7.509 1.74454 7.49266 1.56954 7.45844C1.93432 8.60022 2.99599 9.43011 4.2521 9.45344C3.26976 10.2234 2.03154 10.6823 0.685985 10.6823C0.45343 10.6823 0.225541 10.6683 0.000762939 10.6411C1.27165 11.457 2.78132 11.9314 4.40376 11.9314C9.68643 11.9314 12.5759 7.55489 12.5759 3.76011C12.5759 3.63489 12.5728 3.51044 12.5665 3.38755C13.1273 2.98466 13.615 2.47833 14 1.902Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.17059 1.49635C3.17059 2.32318 2.56035 2.99271 1.55565 2.99271C0.610235 2.99353 0 2.324 0 1.49635C0 0.649765 0.63 0 1.59518 0C2.55953 0 3.15082 0.649765 3.17059 1.49635ZM0.0790588 13.804V4.17447H3.07176V13.8032L0.0790588 13.804Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M4.86293 7.24709C4.86293 6.04556 4.82423 5.04168 4.7847 4.17533H7.38376L7.52211 5.51439H7.58058C7.97423 4.88356 8.9394 3.95874 10.5535 3.95874C12.5226 3.95792 14 5.27721 14 8.11345V13.804H11.0065V8.46756C11.0065 7.22733 10.5741 6.38074 9.49035 6.38074C8.6627 6.38074 8.17105 6.95145 7.95529 7.50321C7.8754 7.70003 7.85646 7.97592 7.85646 8.25098V13.804H4.86293V7.24709Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.63106 10.2562L4.40753 8.18007C4.23212 8.01619 3.948 8.01619 3.77259 8.18007L0 11.6949V12.1734C0 12.6197 0.391176 12.9829 0.868823 12.9829H13.0282C13.5059 12.9829 13.8971 12.6197 13.8971 12.1734V11.6949L10.1245 8.17843C9.94823 8.01619 9.66329 8.01619 9.48953 8.17843L7.266 10.2545C7.09059 10.4193 6.80647 10.4193 6.63106 10.2562ZM11.3573 7.0296L13.58 9.10572C13.7546 9.2696 13.8971 9.20702 13.8971 8.96737V4.50055C13.8971 4.26007 13.7546 4.19831 13.58 4.36219L11.3573 6.43831C11.1811 6.60137 11.1811 6.86572 11.3573 7.0296ZM0.868823 0.823486C0.391176 0.823486 0 1.18831 0 1.63384V1.7796L6.59729 7.95937C6.77188 8.12325 7.05518 8.12325 7.22976 7.95937L13.8971 1.70631V1.63384C13.8971 1.18831 13.5059 0.823486 13.0282 0.823486H0.868823ZM0 4.50055V8.96737C0 9.20702 0.142471 9.2696 0.317059 9.10572L2.53976 7.0296C2.716 6.86572 2.716 6.60137 2.53976 6.43749L0.317059 4.36219C0.142471 4.19831 0 4.26007 0 4.50055Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__top">
+              <img src="/images/DDevry.jpg" alt="DDevry" />
+            </div>
+            <div class="team__bottom">
+              <h3 class="team__name">DANNY DEVRY</h3>
+              <p class="team__position">Designer</p>
+            </div>
+            <div class="team__socials">
+              <a href="#" class="team__links"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_171)">
+                    <path
+                      d="M11.2313 6.99918C11.2313 9.33635 9.33471 11.2313 6.99835 11.2313C4.66118 11.2313 2.76706 9.33635 2.76706 6.99918C2.76706 6.72082 2.79424 6.44906 2.84612 6.18553H0V11.8111C0 13.0192 0.979176 13.9984 2.18729 13.9984H11.8111C13.0167 13.9984 13.9984 13.0192 13.9984 11.8111V6.18553H11.1522C11.2041 6.44906 11.2313 6.72082 11.2313 6.99918ZM11.8111 0H2.18729C0.979176 0 0 0.979176 0 2.18729V4.55741H3.54365C4.30953 3.47447 5.572 2.76706 6.99835 2.76706C8.42635 2.76706 9.68882 3.47365 10.4531 4.55741H13.9984V2.18729C13.9984 0.979176 13.0167 0 11.8111 0ZM12.8808 2.702C12.8808 2.91694 12.7038 3.09318 12.4896 3.09318H11.3169C11.1012 3.09318 10.9266 2.91776 10.9266 2.702V1.53012C10.9266 1.31518 11.1012 1.13894 11.3169 1.13894H12.4896C12.7038 1.13894 12.8808 1.31435 12.8808 1.53012V2.702ZM9.60235 6.99918C9.60235 5.56047 8.43706 4.39435 6.99835 4.39435C5.56129 4.39435 4.39435 5.56129 4.39435 6.99918C4.39435 8.43706 5.56129 9.60235 6.99835 9.60235C8.43706 9.60235 9.60235 8.43706 9.60235 6.99918Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_171">
+                      <rect width="14" height="14" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="#" class="team__links"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_196)">
+                    <path
+                      d="M12.25 0H1.75C0.787294 0 0 0.788118 0 1.75V12.25C0 13.2135 0.787294 14 1.75 14H7.06094V8.97976H5.38341V6.79329H7.06094V5.698C7.06094 4.00894 8.30694 2.68635 9.898 2.68635H11.4438V5.15529H10.0611C9.70035 5.15529 9.59247 5.36282 9.59247 5.65024V6.79329H11.4438V8.97976H9.59247V14H12.25C13.2135 14 14 13.2135 14 12.25V1.75C14 0.788118 13.2135 0 12.25 0Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_196">
+                      <rect width="14" height="14" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="10"
+                  viewBox="0 0 14 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.61318 4.57353C5.61318 4.57353 6.92918 4.47141 6.92918 2.86388C6.93 1.25553 5.85282 0.470703 4.48906 0.470703H0V9.45706H4.48906C4.48906 9.45706 7.22894 9.54764 7.22894 6.80364C7.22894 6.80364 7.34835 4.57353 5.61318 4.57353ZM1.97812 2.06835H4.48823C4.48823 2.06835 5.09847 2.06835 5.09847 3.00388C5.09847 3.93859 4.73941 4.07447 4.33259 4.07447H1.97812V2.06835ZM4.36141 7.86023H1.97812V5.458H4.48823C4.48823 5.458 5.39741 5.44647 5.39741 6.69164C5.39824 7.74329 4.71882 7.852 4.36141 7.86023ZM10.8829 2.75764C7.56659 2.75764 7.56988 6.20906 7.56988 6.20906C7.56988 6.20906 7.34176 9.64564 10.8829 9.64564C10.8829 9.64564 13.8345 9.82188 13.8345 7.25576H12.3175C12.3175 7.25576 12.3678 8.22259 10.934 8.22259C10.934 8.22259 9.41459 8.32882 9.41459 6.65788H13.8855C13.8855 6.65706 14.3739 2.75764 10.8829 2.75764ZM12.2327 5.458H9.39976C9.39976 5.458 9.58506 4.07447 10.9175 4.07447C12.2484 4.07364 12.2327 5.458 12.2327 5.458ZM12.5852 1.00023H9.02753V2.10788H12.5852V1.00023Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.52565 4.92882C5.51435 3.13106 4.43306 1.666 4.35318 1.55894C2.72259 2.33059 1.50541 3.83271 1.12576 5.64282C1.27894 5.64612 3.71659 5.67494 6.52565 4.92882ZM7.25365 6.89376C7.33024 6.86906 7.40765 6.846 7.48424 6.82459C7.33765 6.49188 7.17706 6.15918 7.00906 5.82976C3.99824 6.73153 1.10682 6.66647 1.00471 6.66318C1.00306 6.72494 1.00059 6.78671 1.00059 6.84929C1.00059 8.35306 1.56882 9.72341 2.50106 10.7602C2.50024 10.7586 2.49776 10.7545 2.49776 10.7545C2.49776 10.7545 4.09788 7.91494 7.25365 6.89376ZM3.25376 11.4602L3.25459 11.4569C3.21176 11.4232 3.16565 11.3927 3.12282 11.3565C3.20024 11.4191 3.25376 11.4602 3.25376 11.4602ZM5.44765 1.17024C5.44188 1.17188 5.43777 1.17271 5.432 1.17353C5.44106 1.17188 5.44765 1.17106 5.44765 1.17024ZM10.7116 2.45906C9.68224 1.55153 8.33 0.999765 6.84929 0.999765C6.37329 0.999765 5.91294 1.05741 5.47153 1.16447C5.56047 1.28224 6.65741 2.74071 7.658 4.57635C9.86259 3.75035 10.696 2.48376 10.7116 2.45906ZM6.84847 13.6978C3.06682 13.6978 0 10.6309 0 6.84847C0 3.066 3.06682 0 6.84847 0C10.6301 0 13.6969 3.06682 13.6969 6.84847C13.6969 10.6301 10.6309 13.6978 6.84847 13.6978ZM7.84329 7.80624C4.41082 9.002 3.27765 11.4092 3.25459 11.4578C4.24694 12.2335 5.49212 12.6996 6.84847 12.6996C7.658 12.6996 8.43047 12.5333 9.13129 12.236C9.04482 11.7238 8.70471 9.93176 7.882 7.79471C7.86965 7.798 7.85729 7.80212 7.84329 7.80624ZM8.10682 5.44847C8.24435 5.72682 8.37447 6.01094 8.49635 6.29671C8.54 6.39718 8.582 6.49847 8.62235 6.59812C10.6425 6.34447 12.6321 6.77518 12.6964 6.79C12.6824 5.40153 12.1866 4.13 11.3664 3.13353C11.354 3.15165 10.416 4.50553 8.10682 5.44847ZM8.97812 7.52294C9.74647 9.63282 10.0586 11.3507 10.1171 11.6999C11.4298 10.8129 12.3645 9.408 12.6247 7.77659C12.5078 7.73953 10.8698 7.21988 8.97812 7.52294Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.63106 10.2562L4.40753 8.18007C4.23212 8.01619 3.948 8.01619 3.77259 8.18007L0 11.6949V12.1734C0 12.6197 0.391176 12.9829 0.868823 12.9829H13.0282C13.5059 12.9829 13.8971 12.6197 13.8971 12.1734V11.6949L10.1245 8.17843C9.94823 8.01619 9.66329 8.01619 9.48953 8.17843L7.266 10.2545C7.09059 10.4193 6.80647 10.4193 6.63106 10.2562ZM11.3573 7.0296L13.58 9.10572C13.7546 9.2696 13.8971 9.20702 13.8971 8.96737V4.50055C13.8971 4.26007 13.7546 4.19831 13.58 4.36219L11.3573 6.43831C11.1811 6.60137 11.1811 6.86572 11.3573 7.0296ZM0.868823 0.823486C0.391176 0.823486 0 1.18831 0 1.63384V1.7796L6.59729 7.95937C6.77188 8.12325 7.05518 8.12325 7.22976 7.95937L13.8971 1.70631V1.63384C13.8971 1.18831 13.5059 0.823486 13.0282 0.823486H0.868823ZM0 4.50055V8.96737C0 9.20702 0.142471 9.2696 0.317059 9.10572L2.53976 7.0296C2.716 6.86572 2.716 6.60137 2.53976 6.43749L0.317059 4.36219C0.142471 4.19831 0 4.26007 0 4.50055Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__top">
+              <img src="/images/LSmith.jpg" alt="LSmith" />
+            </div>
+            <div class="team__bottom">
+              <h3 class="team__name">LISA SMITH</h3>
+              <p class="team__position">Developer</p>
+            </div>
+            <div class="team__socials">
+              <a href="#" class="team__links"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_196)">
+                    <path
+                      d="M12.25 0H1.75C0.787294 0 0 0.788118 0 1.75V12.25C0 13.2135 0.787294 14 1.75 14H7.06094V8.97976H5.38341V6.79329H7.06094V5.698C7.06094 4.00894 8.30694 2.68635 9.898 2.68635H11.4438V5.15529H10.0611C9.70035 5.15529 9.59247 5.36282 9.59247 5.65024V6.79329H11.4438V8.97976H9.59247V14H12.25C13.2135 14 14 13.2135 14 12.25V1.75C14 0.788118 13.2135 0 12.25 0Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_196">
+                      <rect width="14" height="14" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="12"
+                  viewBox="0 0 14 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1.902C13.4843 2.12989 12.9313 2.28466 12.3503 2.35389C12.943 1.99844 13.3988 1.43533 13.6127 0.765664C13.0589 1.09466 12.4437 1.33344 11.7895 1.46178C11.2653 0.904108 10.5179 0.555664 9.69265 0.555664C8.10676 0.555664 6.82032 1.84055 6.82032 3.42722C6.82032 3.652 6.84521 3.87133 6.89498 4.08211C4.50721 3.96155 2.39087 2.81822 0.974541 1.08144C0.727207 1.50533 0.585652 1.99922 0.585652 2.52422C0.585652 3.52133 1.09276 4.40022 1.86354 4.91511C1.39299 4.90033 0.949652 4.77122 0.562319 4.55655C0.562319 4.56822 0.562319 4.57989 0.562319 4.59233C0.562319 5.98378 1.55243 7.14578 2.8661 7.40866C2.62499 7.474 2.37143 7.509 2.10932 7.509C1.92499 7.509 1.74454 7.49266 1.56954 7.45844C1.93432 8.60022 2.99599 9.43011 4.2521 9.45344C3.26976 10.2234 2.03154 10.6823 0.685985 10.6823C0.45343 10.6823 0.225541 10.6683 0.000762939 10.6411C1.27165 11.457 2.78132 11.9314 4.40376 11.9314C9.68643 11.9314 12.5759 7.55489 12.5759 3.76011C12.5759 3.63489 12.5728 3.51044 12.5665 3.38755C13.1273 2.98466 13.615 2.47833 14 1.902Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="team__links">
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.63106 10.2562L4.40753 8.18007C4.23212 8.01619 3.948 8.01619 3.77259 8.18007L0 11.6949V12.1734C0 12.6197 0.391176 12.9829 0.868823 12.9829H13.0282C13.5059 12.9829 13.8971 12.6197 13.8971 12.1734V11.6949L10.1245 8.17843C9.94823 8.01619 9.66329 8.01619 9.48953 8.17843L7.266 10.2545C7.09059 10.4193 6.80647 10.4193 6.63106 10.2562ZM11.3573 7.0296L13.58 9.10572C13.7546 9.2696 13.8971 9.20702 13.8971 8.96737V4.50055C13.8971 4.26007 13.7546 4.19831 13.58 4.36219L11.3573 6.43831C11.1811 6.60137 11.1811 6.86572 11.3573 7.0296ZM0.868823 0.823486C0.391176 0.823486 0 1.18831 0 1.63384V1.7796L6.59729 7.95937C6.77188 8.12325 7.05518 8.12325 7.22976 7.95937L13.8971 1.70631V1.63384C13.8971 1.18831 13.5059 0.823486 13.0282 0.823486H0.868823ZM0 4.50055V8.96737C0 9.20702 0.142471 9.2696 0.317059 9.10572L2.53976 7.0296C2.716 6.86572 2.716 6.60137 2.53976 6.43749L0.317059 4.36219C0.142471 4.19831 0 4.26007 0 4.50055Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <svg
+          width="62"
+          height="62"
+          viewBox="0 0 62 62"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_1_212)">
+            <path
+              d="M31 0C13.879 0 0 13.88 0 31.001C0 48.122 13.879 62 31 62C48.12 62 62 48.122 62 31.001C62 13.88 48.12 0 31 0ZM23.803 31.252C25.309 31.252 26.494 31.622 27.357 32.363C28.22 33.104 28.652 34.192 28.652 35.626C28.652 36.647 28.269 37.602 27.504 38.488C26.739 39.374 25.687 39.818 24.35 39.818C22.259 39.818 20.765 39.132 19.866 37.761C18.968 36.391 18.517 34.589 18.517 32.357C18.517 30.781 18.858 29.343 19.538 28.046C20.219 26.748 21.046 25.589 22.017 24.569C23.014 23.526 24.071 22.641 25.189 21.913C26.307 21.185 27.243 20.591 27.997 20.13L29.309 22.31C28.166 22.964 27.243 23.529 26.538 24C25.833 24.474 25.115 25.097 24.387 25.871C23.706 26.599 23.183 27.362 22.82 28.161C22.455 28.961 22.2 29.991 22.054 31.251H23.803V31.252ZM37.292 31.252C38.799 31.252 39.983 31.622 40.847 32.363C41.709 33.104 42.141 34.192 42.141 35.626C42.141 36.647 41.759 37.602 40.994 38.488C40.229 39.374 39.176 39.818 37.841 39.818C35.75 39.818 34.255 39.132 33.356 37.761C32.457 36.391 32.007 34.589 32.007 32.357C32.007 30.781 32.347 29.343 33.028 28.046C33.709 26.748 34.535 25.589 35.507 24.569C36.503 23.526 37.56 22.641 38.678 21.913C39.796 21.185 40.732 20.591 41.487 20.13L42.799 22.31C41.657 22.964 40.733 23.529 40.028 24C39.323 24.474 38.606 25.097 37.877 25.871C37.173 26.622 36.644 27.392 36.291 28.18C35.939 28.967 35.689 29.992 35.544 31.251H37.292V31.252Z"
+              fill="black"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_212">
+              <rect width="62" height="62" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <div class="grid reviews__grid">
+          <article class="reviews__article">
+            <p class="reviews__review">
+              “I love these guys! They did a great job. I would recommend them
+              to anyone.”
+            </p>
+            <figure class="reviews__photo">
+              <img src="/images/JUberstein.jpg" alt="JUbersrein" />
+              <figcaption class="reviews__name">
+                JULIUS VON UBERSTIEN
+              </figcaption>
+            </figure>
+          </article>
+          <article class="reviews__article">
+            <p class="reviews__review">
+              “Elexis Corp. has grown immensely with the help of Minimal.”
+            </p>
+            <figure class="reviews__photo">
+              <img src="/images/RStamos.jpg" alt="RStamos" />
+              <figcaption class="reviews__name">RACHEL STAMOS</figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts__heading">LET'S GET IN TOUCH</h2>
+        <div class="grid">
+          <article class="contacts__possibilities">
+            <svg
+              width="44"
+              height="65"
+              viewBox="0 0 44 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path d="M0 0H44V65H0V0Z" fill="url(#pattern0_1_268)" />
+              <defs>
+                <pattern
+                  id="pattern0_1_268"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#image0_1_268"
+                    transform="scale(0.0113636 0.00769231)"
+                  />
+                </pattern>
+                <image
+                  id="image0_1_268"
+                  width="88"
+                  height="130"
+                  xlink:href="data:image/png;base64,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"
+                />
+              </defs>
+            </svg>
+
+            <h3 class="contacts__variables">MEET US IN PERSON</h3>
+            <p class="contacts__descr">8776 Juniper Street</p>
+            <p class="contacts__descr">Unit #204</p>
+            <p class="contacts__descr">Merriweather, Ontorio</p>
+            <p class="contacts__descr">Canada</p>
+          </article>
+          <article class="contacts__possibilities">
+            <div class="contacts__svg">
+              <svg
+                width="70"
+                height="50"
+                viewBox="0 0 70 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path d="M0 0H70V50H0V0Z" fill="url(#pattern0_1_241)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_241"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_241"
+                      transform="scale(0.00714286 0.01)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_241"
+                    width="140"
+                    height="100"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAABkCAYAAABU19jRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABN5JREFUeNrs3U9S2zAUBvCHpjPtjnTV7gonAE5Q3wB6ApITkB6jK8IJMDeAEzQ3aDhBYdNtw7Ir1xrkqav4byzL70nfm9ECTxKE9EOWnQ9ykGUZoVBdS2EIUACDmgzMMm+/8pahRdWezNzv1EHDHmaVtyv8TkVdNzacOjBHefuJ8ULldWxWnMZT0gXGCVVloQ7MzPr6oeIxL3k706sUmrj2Pm9fzBzadddkoetV0iZvC+vYYd7WeTvFL6G42uZtbubQ3rM8ubqsTiv0AY3M0nN5bh17rLsyGnIfZg404kujuKzYXiQu7sMATVil5+66Bst2LDBNaNKKDTOKD5bbmqugTdcXUQM7YF89nZiVBmhkYFmY+SIfYIqOPAKNWCxp3xcbCmZrzn9Aw7P0nnLlCosLMEDDG8uadu+17I3FFZg2NCvMHRssd0OwuARTRvNsHb8c2kmUMyzzoS/uOkC1NZdpL0ATHpYxwJC5pk+AxnvNzPiOhmUsMEAzDZa12TOOhmVMMG1o5pjj0bF0ejORE5gyGrtugWZ0LAl1fH+IE5gCzQJo5GPxBYbMvgVo3I+pVyw+wQCN+7E8943FN5gmNCtClqbPGFYFoOZjY5kCTPEDf7WOIYA1DEtCPTIt0sAUKwpSe8KwTAmGCFHPPrXkgGVqMEDTfYyuOWDhAKYJTUrI0sypOi23nAILFzDFwCAf3A3LoABUKGCKAUJqjzEWbmAQ9XytU65YuIEBmn8BKJZYOIJpQ7OKAIvzHG7oYMpoYskHjx6tDB1MgSaGfLAYLNzBEIUf9dR7snspWCSAaUOzEo5FryyfpGCRAqYJzRXJzNJ4zeHGCKaMxi5pAaxJopUxginQSE7ticYiEQyR7KhnKhmLVDBtaC4Y9/lcMhbJYJrQpMQvS5PShDlcgPl/Irjng+uwJDRRpiVmMLo454ODwhIKGCKeUc9laFhCAtOG5miCvlyHhiU0ME1o9Ps1M499uK05vpE+wCF+hJ+emKnywXVYFgYtAQxfNL5Te01Y0lAGNlQwvqOeSQxYJIHRg158gOXaERpXdVpzuumDZV36+TbEOLushGC5HGGlSR1hWVP1B1Xt+/qsA+8qYCw2GtepvaZo5dBMC1s0ShiWlz0nwzUa1zncZUXfWKJRwrAkA+5luMoHz8h9aLuub+zQqEiwdEGzmgiLKDQqIixtE3PVcrprSsvNR+4bGzQqMizliakKWl2biUksKBrEE9Wn5Vz3jS0aFSGW8r2PqgDW57x9L90X+U2vN+UOa7CMEYBii0ZFiqX8vRd7PM9HtJIlGhUxlnIfzmj377jr6ob85XDZoVGRYylPzJFZbR4qJujZQDk2G+Ot576xQfMGWHb6lRK/KtDYl/QnpU36NtQVhisW7sVipVHAAjRcwQBLAGgUsAANNzDAEhAaBSxAwwUMsASIRgEL0EwNBlgCRqOABWimAgMsEaBRwAI0vsEAS0RoFLAAjS8wwBIhGgUsQNMHjQIWoOmDRgEL0PRBo4AFaCw075qe3DXTe0G7f8QFLPLRaCB2RvijixUGWOJZaT643vQCS/hoBp+SyqWXsB8Y6zirboW5x9CgqiwcZFlW98AMY4XSRrqekr6Z85v+91xvMW5R1R+zv1nv6GlYYVAoJ1dJKIBBoQAGBTCoqeuvAAMAgQCGcydykNgAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+            </div>
+
+            <h3 class="contacts__variables">THE TRADITIONAL WAY</h3>
+            <p class="contacts__descr">Email us</p>
+            <a href="mailto:contact@minimal.com" class="contacts__email"
+              >contact@minimal.com</a
+            >
+            <p class="contacts__descr">Contact form</p>
+            <p class="contacts__descr">Scroll down</p>
+          </article>
+          <article class="contacts__possibilities">
+            <svg
+              width="68"
+              height="56"
+              viewBox="0 0 68 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path d="M0 0H68V56H0V0Z" fill="url(#pattern0_1_263)" />
+              <defs>
+                <pattern
+                  id="pattern0_1_263"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#image0_1_263"
+                    transform="scale(0.00735294 0.00892857)"
+                  />
+                </pattern>
+                <image
+                  id="image0_1_263"
+                  width="136"
+                  height="112"
+                  xlink:href="data:image/png;base64,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"
+                />
+              </defs>
+            </svg>
+
+            <h3 class="contacts__variables">LET'S GET SOCIAL</h3>
+            <ul class="contacts__list">
+              <li class="contacts__socials">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_196)">
+                    <path
+                      d="M12.25 0H1.75C0.787294 0 0 0.788118 0 1.75V12.25C0 13.2135 0.787294 14 1.75 14H7.06094V8.97976H5.38341V6.79329H7.06094V5.698C7.06094 4.00894 8.30694 2.68635 9.898 2.68635H11.4438V5.15529H10.0611C9.70035 5.15529 9.59247 5.36282 9.59247 5.65024V6.79329H11.4438V8.97976H9.59247V14H12.25C13.2135 14 14 13.2135 14 12.25V1.75C14 0.788118 13.2135 0 12.25 0Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_196">
+                      <rect width="14" height="14" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <a href="#" class="contacts__link">Facebook</a>
+              </li>
+              <li class="contacts__socials">
+                <svg
+                  width="14"
+                  height="12"
+                  viewBox="0 0 14 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1.902C13.4843 2.12989 12.9313 2.28466 12.3503 2.35389C12.943 1.99844 13.3988 1.43533 13.6127 0.765664C13.0589 1.09466 12.4437 1.33344 11.7895 1.46178C11.2653 0.904108 10.5179 0.555664 9.69265 0.555664C8.10676 0.555664 6.82032 1.84055 6.82032 3.42722C6.82032 3.652 6.84521 3.87133 6.89498 4.08211C4.50721 3.96155 2.39087 2.81822 0.974541 1.08144C0.727207 1.50533 0.585652 1.99922 0.585652 2.52422C0.585652 3.52133 1.09276 4.40022 1.86354 4.91511C1.39299 4.90033 0.949652 4.77122 0.562319 4.55655C0.562319 4.56822 0.562319 4.57989 0.562319 4.59233C0.562319 5.98378 1.55243 7.14578 2.8661 7.40866C2.62499 7.474 2.37143 7.509 2.10932 7.509C1.92499 7.509 1.74454 7.49266 1.56954 7.45844C1.93432 8.60022 2.99599 9.43011 4.2521 9.45344C3.26976 10.2234 2.03154 10.6823 0.685985 10.6823C0.45343 10.6823 0.225541 10.6683 0.000762939 10.6411C1.27165 11.457 2.78132 11.9314 4.40376 11.9314C9.68643 11.9314 12.5759 7.55489 12.5759 3.76011C12.5759 3.63489 12.5728 3.51044 12.5665 3.38755C13.1273 2.98466 13.615 2.47833 14 1.902Z"
+                    fill="black"
+                  />
+                </svg>
+
+                <a href="#" class="contacts__link">Twitter</a>
+              </li>
+              <li class="contacts__socials">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.17059 1.49635C3.17059 2.32318 2.56035 2.99271 1.55565 2.99271C0.610235 2.99353 0 2.324 0 1.49635C0 0.649765 0.63 0 1.59518 0C2.55953 0 3.15082 0.649765 3.17059 1.49635ZM0.0790588 13.804V4.17447H3.07176V13.8032L0.0790588 13.804Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M4.86293 7.24709C4.86293 6.04556 4.82423 5.04168 4.7847 4.17533H7.38376L7.52211 5.51439H7.58058C7.97423 4.88356 8.9394 3.95874 10.5535 3.95874C12.5226 3.95792 14 5.27721 14 8.11345V13.804H11.0065V8.46756C11.0065 7.22733 10.5741 6.38074 9.49035 6.38074C8.6627 6.38074 8.17105 6.95145 7.95529 7.50321C7.8754 7.70003 7.85646 7.97592 7.85646 8.25098V13.804H4.86293V7.24709Z"
+                    fill="black"
+                  />
+                </svg>
+                <a href="#" class="contacts__link">Linkedin</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <form action="POST" class="footer__form">
+          <input type="text" class="footer__input" placeholder="Name" />
+          <input type="email" class="footer__input" placeholder="Email" />
+          <input type="text" class="footer__input" placeholder="Budget" />
+          <textarea
+            name="name"
+            id="name"
+            placeholder="Describe your project..."
+            class="footer__input footer__textarea"
+          ></textarea>
+          <button class="footer__btn">Send Message</button>
+        </form>
+        <a href="#"
+          ><svg
+            width="43"
+            height="46"
+            viewBox="0 0 43 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path d="M0 0H43V46H0V0Z" fill="url(#pattern0_1_286)" />
+            <defs>
+              <pattern
+                id="pattern0_1_286"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0_1_286"
+                  transform="scale(0.0116279 0.0108696)"
+                />
+              </pattern>
+              <image
+                id="image0_1_286"
+                width="86"
+                height="92"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABcCAYAAAD0zUKRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA8JJREFUeNrsnQFy4yAMRbGn9yo5WeyTQU/mjduk481iG4P+l/BaM5l2mkwxz/IHCUGcM2LTNA3Tjw2J937NGbP5klKv3tmzuzuBWQTrUl57gZWxzwssxvzDa/0FFgT3AnsNYs2AHVsfxEyC7bpuaH0QsywFseVBbBesYsdGLa2F93lu4BlJBmJIO6VCWVZIe7TPayFtTgMTA+4K2IEJtqTPJWBTFphgU9dBhPoyL52Eua1ERIEseZGkqal+3R4zlMi8i4HosR7psaWeWiwFbLhrYN/lwBLUKrAsuDtgB2mwElC3wH5kRkLx8eFbQoe+Nffx/g2spbFpTbWkudZGf4gUnAWuNFRRsK3CRUAVB9saXBRUCNhW4CKhwsBah4uGCgVrFS4DKhysNbgsqBSwVuAyodLAasNlQ6WC1YKrAZUOViHlqAJVBSwxK6YGVQ0sGq421C2w3Vu1SUylzXI+U5imi6UpR0Tqr4TFakpzz4sSK6WDtucCEyqHWeQuJsIeoefdr16gJCapq1hQS4xq4ZrL/B9w/38e9b33WbJASqgcZpEjBVt3PGp6roKnVrNYgv1a6VDyPRZcpce/mkVKY++MwSwHrgFNLWbR57j5ohCYClcZahWLPvUILNyeUpu6AVdz9K9i0SPmcCC4WlOqIhZ9hpuPRmaGd/KNrmKxVmJ0Z+8H3hio/hrQhMqZDt3QEhY5kVc0ALUo/CXPb3fBvtz9c6F9GlBvTr/4uZhFj0pCSCRUpBI3GgNYv+PuoxZUqcSN4KM/VoFlTGmORlRacGtY0HcmloaphmTBngnV/JsqZ1JbTJSEahGuKlhQJbUJuBaXvz3wf4dTgyUtp6jCtVRi5IlthVOBVar6U4FroYyTEiIrVDmqFh57RzI2XM1SeRpUDbhamzvoUNlwNbYjqUFlwmVvoFOHyoLL3PJpBioDLmuTsjmoaLiMbfUeDGZ4vSzBFQFL3Ea5rN1yz99FYEjDrQZLhvp7/stGu1bK9iGH7XigDg7Pv03SYCXhFp8qzyqlTLWDPD9WdQ2NnPp735ESpn3zwD7SDo1E76I+aozdjbRDI5H51GygCImQPjTySEPoeSr0kS+E68U99q0hpKf6TI99BQiBBNdDNJboIeGgFJgKm62CHRaBQHNQq+axpIubvXarmm/sfiy6RuzDyHV4dADyX9lOHgA2tTq9xmZqa7jAyoSyzSTPTYNd8VrzEtCSxzZZld3Cl1F+ucsgMuDP5LGdBbDzz3n23yrYlFmRgvFsT2Jn8MuJT2H9hQBjfwQYAIRc1CDWu7u7AAAAAElFTkSuQmCC"
+              />
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
